@@ -295,6 +295,9 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+	body {
+		font-size: 1.2em;
+	}
 	h1 {
 		font-size: 4em;
 	}
@@ -324,6 +327,9 @@ a:hover {
 }
 
 @media (max-width: 576px) {
+	body {
+		font-size: 1.2em;
+	}
 	h1 {
 		font-size: 2em;
 	}
