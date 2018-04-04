@@ -283,10 +283,6 @@ a:hover {
 	header {
 		height: 600px;
 	}
-	header img {
-	width: 500px;
-	padding-top: 30px;
-}
 }
 
 @media (max-width: 992px) {
@@ -321,8 +317,4 @@ a:hover {
 	header {
 		height: 280px;
 	}
-	header img {
-	width: 85%;
-	padding-top: 30px;
-}
 }
