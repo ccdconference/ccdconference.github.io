@@ -321,4 +321,8 @@ a:hover {
 	header {
 		height: 280px;
 	}
+	header img {
+	width: 85%;
+	padding-top: 30px;
+}
 }
