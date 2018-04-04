@@ -41,24 +41,27 @@ header {
 	height: 600px;
 	margin-bottom: 20px;
 	background-color: #595959;
+	width: 100%;
 
 }
 
 #cim {
+	padding-top: 30px;
 	display: inline-block;
 	color: #FFAE20;
 	text-align: center;
 	width:50%;
+	margin: auto;
 }
 
 h1	{
 	font-size: 8em;
-	padding-top: 30px;
+	padding-top: 10%;
 }
 
 
 header img {
-	width: 80%;
+	width: 100%;
 	padding-top: 30px;
 }
 
