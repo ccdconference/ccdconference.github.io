@@ -58,7 +58,7 @@ h1	{
 
 
 header img {
-	width: 500px;
+	width: 85%;
 	padding-top: 30px;
 }
 
@@ -283,6 +283,10 @@ a:hover {
 	header {
 		height: 600px;
 	}
+	header img {
+	width: 500px;
+	padding-top: 30px;
+}
 }
 
 @media (max-width: 992px) {
