@@ -31,7 +31,6 @@ body {
 	border-color: #7A7A7A;
 }
 
-
 header {
 	height: 600px;
 	margin-bottom: 20px;
@@ -71,11 +70,29 @@ p {
 	font-style: italic;
 }
 
+#allevents {
+	margin-bottom: 50px;
+}
+
+#ticketstable {
+	width: 1000px;
+	margin: auto;
+}
+
+#ticketstable td {
+	font-size: 1em;
+	height: 150px;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.borders {
+	border-right: 1px solid black;
+}
 .btn {
 	background-color: #7A7A7A;
 	border: 1px solid #404040;
-	font-size: 2em;
-	font-weight: bold;
+	font-size: 1.5em;
 	color: white;
 }
 
@@ -142,7 +159,7 @@ hr {
 	font-weight: bold;
 }
 
-th,td {
+.table th , td {
 	font-size: 0.8em;
 	width: 350px;
 	height: 30px;
@@ -153,11 +170,11 @@ th,td {
 	color: #666666;
 }
 
-th {
+.table th {
 	border-top-right-radius: 25px;
 }
 
-.lastrow {
+.table .lastrow {
 	border-bottom-left-radius: 25px;
 }
 
@@ -166,14 +183,14 @@ th {
 	
 }
 
-tbody tr:nth-of-type(2n) {
+.table tbody tr:nth-of-type(2n) {
 	background: rgba(255, 174, 32, 0.9);
 }
-tbody tr:nth-of-type(2n+1) {
+.table tbody tr:nth-of-type(2n+1) {
 	background: rgba(255, 174, 32, 0.5);
 }
 
-thead {
+.table thead {
 	background: #FFAE20;
 }
 
