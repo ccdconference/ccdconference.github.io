@@ -318,8 +318,15 @@ a:hover {
 		font-size: 4em;
 	}
 	#ticketstable {
-		font-size: 0.45em;
+		font-size: 0.4em;
 		margin: 0;
+	}
+	#ticketstable td {
+		font-size: 1.2em;
+		font-weight: bold;
+		height: 100px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	footer { 
 		width: 135%;
